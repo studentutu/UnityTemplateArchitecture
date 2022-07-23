@@ -11,7 +11,10 @@
         "UniTask.Addressables",
         "Unity.ResourceManager",
         "Unity.Addressables",
-        "UniTask.DOTween"
+        "UniTask.DOTween",
+        "Unity.TextMeshPro",
+        "UniTask.TextMeshPro",
+        "com.addressables.keyusage"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

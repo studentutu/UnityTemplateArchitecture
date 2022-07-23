@@ -1,5 +1,5 @@
 {
-    "name": "com.custom.app.tests",
+    "name": "com.custom.app.tests.editmode",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
@@ -19,7 +19,9 @@
         "com.custom.test.extensions",
         "BoundfoxStudios.FluentAssertions"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

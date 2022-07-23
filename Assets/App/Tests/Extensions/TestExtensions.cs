@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 using Zenject.Internal;
 
 public static class TestExtensions
@@ -14,5 +15,6 @@ public static class TestExtensions
 	{
 		ZenjectTestUtil.DestroyEverythingExceptTestRunner(true);
 		UniRx.MessageBroker.Default.Buffered().ClearAllBuffer();
+		StaticContext.Clear();
 	}
 }

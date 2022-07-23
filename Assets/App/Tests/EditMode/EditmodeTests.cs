@@ -8,14 +8,13 @@ using UnityEngine.TestTools;
 using Zenject;
 
 [TestFixture]
-public class PLaymodeTests : ZenjectUnitTestFixture
+public class EditmodeTests : ZenjectUnitTestFixture
 {
 	[SetUp]
 	[UnitySetUp]
 	public override void Setup()
 	{
 		base.Setup();
-		ReactiveClickerInstaller.Install(Container);
 	}
 
 	[TearDown]
@@ -30,10 +29,24 @@ public class PLaymodeTests : ZenjectUnitTestFixture
 	[Test]
 	public void TestUtilsSimplePasses()
 	{
+		ReactiveClickerInstaller.Install(Container);
+
 		var resolveFromContainer = Container.Resolve<ReactiveCLickerRunner>();
 		resolveFromContainer.Should().NotBeNull();
-		Assert.Pass();
 		10.Should().BeGreaterOrEqualTo(10);
+		Assert.Pass();
+	}
+
+	[Test]
+	public void TestMVC()
+	{
+		ReactiveClickerInstaller.Install(Container);
+		var resolveRunner = Container.Resolve<ReactiveCLickerRunner>();
+		resolveRunner.Should().NotBeNull();
+		var model = Container.Resolve<ClickerModel>();
+		resolveRunner.RunController();
+		model.OnMainCLick.SetValueAndForceNotify(true);
+		model.MainText.Value.Should().Be("1");
 	}
 
 	// A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use

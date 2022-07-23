@@ -1,0 +1,10 @@
+{
+    "name": "#SCRIPTNAME#",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "references": [
+        "Unity.AutomatedQA",
+        "Unity.AutomatedQA.TestTools"
+    ]
+}

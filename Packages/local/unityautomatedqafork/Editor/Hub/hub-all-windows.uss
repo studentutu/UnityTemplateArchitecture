@@ -1,0 +1,102 @@
+﻿.go-back-to-hub-button {
+	width: 100%;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.editor-is-dark-theme .go-back-to-hub-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+}
+
+.editor-is-dark-theme .go-back-to-hub-button:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+.go-back-to-hub-button-text {
+	font-size: 12px;
+	-unity-text-align: middle-left;
+}
+
+.highlight {
+	border-color: rgb(0, 255, 255);
+	color: rgb(0, 255, 255);
+}
+
+.tutorial-button {
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	right: -5px;
+	top: -1px;
+	border-radius: 0;
+}
+
+.tutorial-indicator-background {
+	background-color: rgb(0, 255, 255);
+	height: 25px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.tutorial-indicator-text {
+	padding: 4px;
+	color: black;
+	font-size: 15px;
+	-unity-text-align: middle-center;
+}
+
+.tutorial-instructions {
+	-unity-text-align: middle-center;
+	white-space: normal;
+	padding-bottom: 20px;
+	color: rgb(0, 255, 255);
+}
+
+.tutorial-popup {
+	background-color: rgb(40, 40, 40);
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.tutorial-message {
+	border-color: rgb(0, 255, 255);
+	border-width: 1px;
+	background-color: rgb(75, 75, 75);
+	opacity: 1;
+	position: absolute;
+	top: 40%;
+	width: 90%;
+	left: 5%;
+}
+
+.tutorial-message-description {
+	padding: 10px;
+	white-space: normal;
+	-unity-text-align: middle-center;
+	font-size: 15px;
+}
+
+.tutorial-message-button {
+	height: 40px;
+	width: 50%;
+	margin: 1px;
+}
+
+.tutorial-message-buttons-container {
+	margin-top: 20px;
+	height: 50px;
+	margin: 2px;
+	padding: 5px;
+	flex-direction: row;
+	flex-shrink: 0;
+	align-content: center;
+	margin-right: 5px;
+}

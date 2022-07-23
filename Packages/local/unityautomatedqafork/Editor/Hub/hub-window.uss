@@ -1,0 +1,125 @@
+﻿.button-description {
+	font-size: 11px;
+	white-space: normal;
+	-unity-text-align: upper-left;
+	padding-top: 15px;
+}
+
+.button-label {
+	align-self: flex-end;
+}
+
+.editor-is-dark-theme {
+	color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+.editor-is-light-theme {
+	color: rgb(1, 1, 1);
+	border-color: rgb(1, 1, 1);
+}
+
+.editor-window-button {
+	padding: 10px;
+	-unity-text-align: upper-center;
+	height: 100px;
+	width: 100%;
+	max-width: 750px;
+	margin: 2px;
+	font-size: 20px;
+	align-self: center;
+}
+
+.editor-window-button:hover {
+	border-width: 1px;
+}
+
+.editor-is-dark-theme .editor-window-button {
+	background-color: rgb(40, 40, 40);
+}
+
+.editor-is-dark-theme .editor-window-button:hover {
+	background-color: rgb(45, 45, 45);
+}
+
+.documentation-button {
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	left: -5px;
+	top: -1px;
+	border-radius: 0;
+}
+
+.icon-cloud {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/cloud.png");
+    width: 25px;
+	height: 25px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-generator {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/generator.png");
+    width: 35px;
+	height: 35px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-settings {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/settings.png");
+    width: 25px;
+	height: 25px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-recording {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/recording.png");
+    width: 25px;
+	height: 25px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-robot {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/robot.png");
+    width: 25px;
+	height: 25px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-runner {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/test_runner.png");
+    width: 25px;
+	height: 25px;
+	color: white;
+    opacity: 0.8;
+}
+
+.icon-question {
+	--unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/question.png");
+	width: 25px;
+	height: 25px;
+	color: white;
+	opacity: 0.8;
+}
+
+
+.icon-wrench {
+	--unity-image: resource("Packages/com.unity.automated-testing/Editor/Hub/hub_icons/wrench.png");
+	width: 25px;
+	height: 25px;
+	color: white;
+	opacity: 0.8;
+}
+
+
+.window-title {
+	font-size: 24px;
+	-unity-text-align: middle-center;
+	margin: 15px;
+	padding-top: 25px;
+}

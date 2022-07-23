@@ -1,0 +1,108 @@
+.box-region {
+	border-width: 1px;
+	border-radius: 6px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.button {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	min-width: 150px;
+	max-width: 20%;
+	align-self: center;
+}
+
+.button-confirm {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 5px;
+	min-width: 100px;
+	max-width: 20%;
+	min-width: 150px;
+	width: 20%;
+	max-width: 250px;
+	align-self: center;
+}
+
+.button-overwrite {
+	border-color: red;
+}
+
+.center-align {
+	align-self: center;
+}
+
+.editor-is-dark-theme {
+	color: rgb(255, 255, 255);
+	border-color:  rgb(255, 255, 255);
+}
+
+.editor-is-light-theme {
+	color: rgb(1, 1, 1);
+	border-color:  rgb(1, 1, 1);
+}
+
+.error-label {
+	padding-bottom: 10px;
+	align-self: center;
+	color:  rgb(255, 0, 0);
+}
+
+.header {
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	align-self: center;
+}
+
+.label-space-padding {
+	padding-bottom: 26px;
+}
+
+.recording {
+	padding: 5px;
+}
+
+.recording-list-header {
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.recording-segments-found {
+	padding: 3.5px;
+	-unity-font-style: bold-and-italic;
+	font-size: 14px;
+}
+
+.success-label {
+	padding-bottom: 10px;
+	align-self: center;
+	color:  rgb(0, 255, 0);
+}
+
+.toggle-all-label {
+	margin-left: 10px;
+}
+
+.toggle-row-warning {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.toggle-row-main {
+	margin-left: 10px;
+}
+
+.warning {
+	color: red;
+	white-space: normal;
+}
+
+.warning-recordings {
+	padding-left: 10px;
+	color: red;
+	margin-bottom: 10px;
+}

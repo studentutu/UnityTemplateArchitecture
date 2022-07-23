@@ -1,0 +1,21 @@
+{
+    "name": "App.Core.Editor",
+    "rootNamespace": "",
+    "references": [
+        "App.Core",
+        "App.Core.Attributes",
+        "Unity.Timeline",
+        "PlayerPrefsEditor.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

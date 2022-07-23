@@ -1,0 +1,24 @@
+{
+    "name": "SoftServe.MRTKRef",
+    "rootNamespace": "",
+    "references": [
+        "Microsoft.MixedReality.Toolkit.Async",
+        "Microsoft.MixedReality.Toolkit",
+        "Microsoft.MixedReality.Toolkit.Services.InputSystem",
+        "Microsoft.MixedReality.Toolkit.SDK",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "App.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "MRTK_PRESENT"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

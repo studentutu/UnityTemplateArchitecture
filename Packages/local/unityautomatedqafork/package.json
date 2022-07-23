@@ -1,0 +1,24 @@
+{
+  "name": "com.unity.automated-testing",
+  "displayName": "Automated QA Fork",
+  "version": "0.8.1",
+  "unity": "2019.4",
+  "description": "December 6, 2021: Automated QA Development has been put on hold until further notice. Thank you for your interest and support.\n\nThe Automated QA package enables users to create Unity Tests from recordings of touch and drag interactions with the UI of a Unity Project and run Unity Tests on iOS and Android devices in our cloud device farm (hosted and managed by Unity) - tests can be executed from the Unity editor, command line, or your continuous integration (CI) pipeline.",
+  "dependencies": {
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  },
+  "keywords": [
+    "recorded testing",
+    "automated testing",
+    "automated qa"
+  ],
+  "upmCi": {
+    "footprint": "9610a56a965d6a5c091f6b0984beeac8c4577018"
+  }
+}

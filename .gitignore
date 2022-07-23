@@ -1,0 +1,58 @@
+# UNITY
+# -----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+/[Bb]uild/
+[Bb]uilds/
+ProfilerReports/
+#[Pp]ackages/
+ios-build/
+testCategoriesToRun.txt
+
+# Visual Studio cache directory
+.vs/
+
+/*.csproj
+
+*.unityproj
+/*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Rider IDE
+.idea
+*.userproperties
+
+# Fastlane specific
+fastlane/
+Gemfile
+Gemfile.lock
+
+**/.DS_Store
+Assets/Save/
+Assets/Save.meta
+Save/
+
+Assets/Temp/
+Assets/Temp.meta
+
+MemoryCaptures/
+
+/UserSettings/
+/CodeCoverage/
+/Logs/
+
+Assets/Editor/SpineSettings.asset*

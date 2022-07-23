@@ -1,0 +1,86 @@
+.button {
+	min-width: 75px;
+	max-width: 20%;
+	align-self: center;
+}
+
+.button-container-inner {
+	flex: 1;
+	overflow: hidden;
+	align-content: center;
+	margin-top: 25px;
+}
+
+.button-left {
+	margin-left: 30%;
+}
+
+.error-label {
+	white-space: normal;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: rgb(100, 0, 0);
+}
+
+.delete-button-offset {
+	margin-left: 40px;
+}
+
+.delete-custom-settings-button {
+	width: 20px;
+	color: rgb(255, 0, 0);
+	position: absolute;
+	margin-top: 10px;
+}
+
+.editor-is-dark-theme {
+	color: rgb(255, 255, 255);
+}
+
+.editor-is-light-theme {
+	color: rgb(1, 1, 1);
+}
+
+.form-row {
+    flex-direction: row;
+}
+
+.form-label {
+    flex: 1;
+}
+
+.form-editor {
+    flex: 3;
+}
+
+.section-header {
+    font-size: 22px;
+    padding-left: 20px;
+	margin: 20px 10px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: rgb(175, 175, 175);
+	align-self: stretch;
+	-unity-text-align: middle-center;
+}
+
+.setting-dirty {
+	background-color: rgb(0, 100, 0);
+}
+
+.setting-error {
+	background-color: rgb(100, 0, 0);
+}
+
+.settings-row {
+	margin: 6px 6px;
+}
+
+.buttons-row {
+	margin: 6px 6px;
+}
+
+.settings-field-label {
+	padding-bottom: 2px;
+}
+

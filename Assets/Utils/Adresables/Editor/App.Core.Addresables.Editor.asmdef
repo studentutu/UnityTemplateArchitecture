@@ -1,0 +1,30 @@
+{
+    "name": "App.Core.Addresables.Editor",
+    "rootNamespace": "",
+    "references": [
+        "UniTask.Addressables",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "App.Core",
+        "App.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITASK_ADDRESSABLE_SUPPORT"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.addressables",
+            "expression": "",
+            "define": "UNITASK_ADDRESSABLE_SUPPORT"
+        }
+    ],
+    "noEngineReferences": false
+}

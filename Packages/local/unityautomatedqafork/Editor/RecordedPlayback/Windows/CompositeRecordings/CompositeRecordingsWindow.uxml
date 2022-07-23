@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="ButtonHolder" class="button-holder">
+        <!-- BUTTONS -->
+        <engine:Button name="RecordButton" class="ButtonList" text="  RECORD">
+            <engine:Image class="RecordImg" />
+        </engine:Button>
+        <engine:Button name="ReportButton" class="ButtonList" text="☰  SHOW REPORT">
+            <engine:Image class="ReportImg" />
+        </engine:Button>
+        <engine:Button name="EndButton" class="ButtonList" text="  STOP">
+            <engine:Image class="EndImg" />
+        </engine:Button>
+        <engine:Button name="SaveButton" class="ButtonList" text="  SAVE SEGMENT">
+            <engine:Image class="SaveImg" />
+        </engine:Button>
+    </engine:VisualElement>
+
+    <engine:VisualElement name="Container">
+        <engine:VisualElement name="RecordingPanel">
+            <!-- RECORDINGS LIST -->
+            <engine:Label text="Composite Recordings" class="header"/>
+            <engine:Label name="RecordingDescription" class ="description" text="Click the RECORD button to create new recordings of of your game.  While recording, click the SAVE button to save 'segment' recordings along the way and the END button when you're done.  Below you'll find a list of all your recordings.  You can multi-select (shift/ctrl + click) recordings from the list below and click the CREATE COMPOSITE RECORDING button to combine them."/>
+            <engine:Label name="AssetPathLabel" text="-Recording Asset Path-"/>
+            <engine:Label name="AssetPath"/>
+            <engine:VisualElement name="RecordingsList" />
+            <engine:VisualElement name="RecordingPanelButtonHolder" class="button-holder">
+                <engine:Button name="OpenCompositeButton" class="combine-button" text="CREATE COMPOSITE RECORDING"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="CompositePanel">
+            <engine:VisualElement name="RightTopPanel">
+                <!-- COMBINE RECORDINGS PANEL -->
+                <engine:Label text="Create New Composite Recording" class="header">
+                    <engine:Button name="CloseCompositeButton" text="Combine Recordings" style="width: 45px;"/>
+                </engine:Label>
+                <engine:Label name="CompositeRecordingDescription" class ="description" text="Create a composite recording by selecting which recording files from your Assets/[RECORDING_FOLDER_NAME]/ directory to combine (which will execute in order top to bottom) in the rows below.  You can also multi-select recordings from the previous page and click CREATE COMPSITE RECORDING to pre-populate these rows.  Note: Composite recordings do not currently handle game state changes"/>
+                <engine:VisualElement name="CompositeRecordingsContainer">
+                    <editor:IntegerField name="NumberCompositeRecordings" value="1" label="Size"/>
+                    <engine:VisualElement name="CompositeRecordingList" />
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="AddDeleteWrapper" class="flex-end">
+                    <engine:VisualElement name="CompositePanelAddRemoveContainer" class="button-holder">
+                        <engine:Button name="AddCompositeButton" class="combine-button, add-remove-row-button" text="+"/>
+                        <engine:Button name="DeleteCompositeButton" class="combine-button, add-remove-row-button" text="-"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+               
+                <engine:VisualElement name="CompositePanelButtonHolder" class="button-holder">
+                    <engine:Button name="SaveCombineButton" class="combine-button" text="SAVE COMPOSITE RECORDING"/>
+                    <engine:Button name="PlayAndContinueButton" class="combine-button" text="PLAY ALL AND RECORD"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="HelpBox"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+    
+</engine:UXML>

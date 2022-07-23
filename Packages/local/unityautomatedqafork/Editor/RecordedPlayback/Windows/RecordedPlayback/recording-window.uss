@@ -1,0 +1,104 @@
+.button {
+	width: 28%;
+	min-width: 100px;
+	max-width: 200px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.center {
+	align-self: center;
+	margin: 1px;
+}
+
+.edit-field {
+	width: 75%;
+}
+
+.editor-is-dark-theme .even{
+	background-color: rgb(63, 63, 63);
+}
+
+.editor-is-light-theme .even{
+	background-color: rgb(202, 202, 202);
+}
+
+.filter-label {
+	padding: 2.5px;
+	margin: 0 0 5px 5px;
+	align-self: flex-start;
+}
+
+.filter-field {
+	width: 200px;
+	margin-bottom: 5px;
+	align-self: flex-start;
+}
+
+.item-block {
+	margin: 2px;
+	padding: 4px;
+	flex-direction: row;
+	flex-shrink: 0;
+	align-content: center;
+	border-color: grey;
+	border-radius: 6px;
+	border-width: 2px;
+}
+
+.item-row {
+	margin: 2px;
+	padding: 5px;
+	flex-direction: row;
+	flex-shrink: 0;
+	align-content: center;
+	margin-right: 5px;
+}
+
+.item-row-new {
+	padding: 4px;
+	border-radius: 6px;
+	border-width: 2px;
+	border-color: rgb(210, 255, 225);
+}
+
+.recording-label {
+	margin: 3px;
+}
+
+.red {
+	color: red;
+}
+
+.refresh-button {
+	height: 22px;
+	width: 22px;
+	font-size: 18px;
+	-unity-font-style: bold;
+	margin-bottom: 5px;
+	right: 2.5px;
+	position: absolute;
+}
+
+.state-label {
+	padding: 6px;
+	font-size: 16px;
+}
+
+.small-button {
+	height: 20px;
+	width: 20px;
+	border-radius: 0px;
+}
+
+.small-button.find-button {
+	font-size: 22px;
+}
+
+.small-button.rename-button {
+	font-size: 14px;
+}
+
+.small-button.play-button {
+	font-size: 25px;
+}

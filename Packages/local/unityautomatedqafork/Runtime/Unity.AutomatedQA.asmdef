@@ -1,0 +1,21 @@
+{
+    "name": "Unity.AutomatedQA",
+    "references": [
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "0.1",
+            "define": "AQA_USE_TMP"
+        }
+    ],
+    "noEngineReferences": false
+}

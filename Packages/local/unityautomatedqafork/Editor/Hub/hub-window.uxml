@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+    <engine:ScrollView name="MainRegion" class="button-holder">
+       <engine:VisualElement name="BannerContainer"></engine:VisualElement>
+       
+       <engine:Label class="window-title"  text="Automated QA Hub" />     
+       <engine:Label name="TutorialInstructions" class="tutorial-instructions"  text="" />  
+       <engine:VisualElement name="PageButtonsContainer">
+           <engine:Button name="RecordAndPlaybackButton" class="editor-window-button" text="Recorded Playback">
+               <engine:Image class="icon icon-recording" />
+               <engine:Label class="button-description"  text="Record actions that you perform in play mode to generate a script that can be used to playback in the editor or generate as C# code." />
+           </engine:Button>
+           <engine:Button name="TestGenerationButton" class="editor-window-button" text="Test Generation">
+               <engine:Image class="icon icon-generator" />
+               <engine:Label class="button-description"  text="Generate C# code from recording files created in the Record And Playback window, or create C# tests from Automated Runs." />
+           </engine:Button>
+            <engine:Button name="CloudTestingButton" class="editor-window-button" text="Cloud Testing">
+                <engine:Image class="icon icon-cloud" />
+                <engine:Label class="button-description"  text="Run tests in the cloud on a multitude of available mobile devices." />
+           </engine:Button>
+           <engine:Button name="ToolsButton" class="editor-window-button" text="Tools">
+               <engine:Image class="icon icon-wrench" />
+               <engine:Label class="button-description"  text="Other miscellaneous Automated QA tools." />
+           </engine:Button>
+            <engine:Button name="SettingsButton" class="editor-window-button" text="Settings">
+                <engine:Image class="icon icon-settings" />
+                <engine:Label class="button-description"  text="Modify exposed Automated QA parameters to customize your automation experience and framework behaviors." />
+            </engine:Button>
+           <engine:Button name="DocumentationButton" class="editor-window-button"  text="Documentation">
+               <engine:Image class="icon icon-question" />
+               <engine:Label class="button-description"  text="Opens the Automated QA Documentation in your web browser." />
+           </engine:Button>
+           <!--
+           <engine:Button name="TutorialButton" class="editor-window-button"  text="Tutorial">
+               <engine:Image class="icon icon-robot" />
+               <engine:Label class="button-description"  text="Coming soon." />
+           </engine:Button>
+            -->
+        </engine:VisualElement>
+    </engine:ScrollView>  
+</engine:UXML>

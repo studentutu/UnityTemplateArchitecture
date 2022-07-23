@@ -1,0 +1,283 @@
+﻿/* Element Name */
+#AssetPath {
+    height: 20px;
+    min-width: 70px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+#ButtonHolder {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    color: rgb(51, 51, 51);
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#CompositePanel {
+    position: relative;
+    flex: 1;
+    width: auto;
+    border-width: 2px;
+}
+
+#RecordingPanel {
+    display: flex;
+    -unity-text-align: middle-center;
+    flex: 1;
+    width: auto;
+    height: auto;
+}
+
+#RightTopPanel {
+    border-width: 1px;
+    -unity-text-align: middle-center;
+    display: flex;
+    flex: 1;
+}
+
+#RightBottomPanel {
+    border-width: 1px;
+    -unity-text-align: middle-center;
+    display: flex;
+    flex: 1;
+}
+
+#RecordingsList {
+    height: 300px;
+    width: auto;
+    flex: 1;
+    margin: 5px;
+}
+
+#ListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Common Classes */
+.description {
+    padding: 5px 15px 10px 15px;
+}
+
+#RecordingPanelButtonHolder {
+    margin-bottom: 7px;
+}
+
+#SaveButton {
+    color: white;
+}
+
+#EndButton {
+    color: white;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+.info {
+    height: auto;
+    display: flex;
+}
+
+.header {
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-top: 5px;
+}
+
+.button-holder {
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.combine-button {
+    height: 30px;
+    width: 270px;
+    margin-top: 5px;
+    flex: 1;
+}
+
+.ListLabel {
+    flex: 0.9;
+    position: relative;
+
+    border-width: 3px;
+    max-height: 50px;
+    min-height: 30px;
+
+    -unity-text-align: middle-center;
+}
+
+.ButtonList {
+    -unity-text-align: middle-center;
+    width: 160px;
+    height: 36px;
+    padding: 9px 0px 7px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Icons */
+.RecordImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_record.png");
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.ReportImg {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.SaveImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_save.png");
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.EndImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_stop.png");
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+
+.FindImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_find.png");
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+}
+
+.EditImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_edit.png");
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+}
+
+.PlayImg {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_play.png");
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+}
+
+Button {
+    background-image: none;
+    border-radius: 5px;
+}
+
+Button:active {
+    background-color: rgba(51, 51, 51,1);
+    color: rgba(255,255,255,1);
+}
+
+
+Label {
+    white-space: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Composite Recordings */
+#CompositePanelAddRemoveContainer {
+    width: 50px;
+    height: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#CompositeRecordingList {
+    display: flex;
+    height: auto;
+    /*width: auto;*/
+    color: rgb(51, 51, 51);
+    
+}
+
+.add-remove-row-button {
+    height: 20px;
+}
+
+
+/* Recording List Row */
+
+.recording-row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.recording-row-button {
+    width: 55px;
+    height: 18px;
+    align-items: flex-start;
+    justify-content: center;
+    -unity-text-align: middle-right;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 1px;
+}
+
+.edit-button {
+    width: 73px;
+}
+
+.find-button {
+    width: 52px;
+}
+
+.recording-row-button-container {
+    left: 0px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.recording-row-button-icon {
+    --unity-image: resource("Packages/com.unity.automated-testing/Editor/Automators/RecordedPlayback/Windows/RecordedPlayback/icons/icon_locate.png");
+    height: 10px;
+    width: 10px;
+    opacity: 0.8;
+}
+
+.recording-row-button-icon:hover {
+    opacity: .3;
+    color: red;
+}
+
+.recording-row-button:active > .recording-row-button-icon {
+    opacity: 0.3;
+}
+

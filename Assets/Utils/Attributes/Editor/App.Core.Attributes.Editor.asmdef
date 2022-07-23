@@ -1,0 +1,19 @@
+{
+    "name": "App.Core.Attributes.Editor",
+    "rootNamespace": "",
+    "references": [
+        "App.Core.Attributes",
+        "App.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,11 +1,11 @@
 {
-    "name": "com.custom.app.tests",
+    "name": "com.custom.test.extensions",
     "rootNamespace": "",
     "references": [
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
         "App.Core",
         "App.Core.Attributes",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
         "com.custom.app",
         "LeanTouch",
         "UniRx",
@@ -20,15 +20,9 @@
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": true,
-    "precompiledReferences": [
-        "nunit.framework.dll",
-        "Castle.Core.dll",
-        "Newtonsoft.Json.dll",
-        "NSubstitute.dll",
-        "System.Threading.Tasks.Extensions.dll"
-    ],
-    "autoReferenced": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],

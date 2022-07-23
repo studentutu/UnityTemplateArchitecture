@@ -1,0 +1,38 @@
+{
+    "name": "com.custom.app.tests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "App.Core",
+        "App.Core.Attributes",
+        "com.custom.app",
+        "LeanTouch",
+        "UniRx",
+        "UniTask",
+        "UniTask.Addressables",
+        "UniTask.DOTween",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Zenject",
+        "Zenject-TestFramework",
+        "com.custom.test.extensions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Castle.Core.dll",
+        "Newtonsoft.Json.dll",
+        "NSubstitute.dll",
+        "System.Threading.Tasks.Extensions.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

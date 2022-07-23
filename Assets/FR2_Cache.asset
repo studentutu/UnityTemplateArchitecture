@@ -12979,6 +12979,56 @@ MonoBehaviour:
     stamp: 1590441754
     type: 2
     UseGUIDsList: []
+  - guid: 52f12f4ef211e38488fab6ea19b262a1
+    loadInfoTS: 0
+    stamp: 0
+    type: 1
+    UseGUIDsList: []
+  - guid: 2644ac3434d955b449e5d4d57bc84df9
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
+  - guid: 0cbdd98d2c7312f4d97b8e0e7075f135
+    loadInfoTS: 0
+    stamp: 0
+    type: 1
+    UseGUIDsList: []
+  - guid: 4fae70fa883e2d94ab196491c9cf68b1
+    loadInfoTS: 0
+    stamp: 0
+    type: 1
+    UseGUIDsList: []
+  - guid: 5807963a7201c3847bb64b29fb432387
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
+  - guid: bb35b8119bb3d3449beedd5fd7e2e033
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
+  - guid: 9602c8fa75fe1f4479ad4156e312387f
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
+  - guid: a064e3778dc01cc48aa9f67855a1e0a6
+    loadInfoTS: 0
+    stamp: 0
+    type: 1
+    UseGUIDsList: []
+  - guid: 096a9440891c37e4a964f519057195ac
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
+  - guid: 1c3f519aaf883994880a013d7da0c286
+    loadInfoTS: 0
+    stamp: 0
+    type: 9
+    UseGUIDsList: []
   priority: 3
   setting:
     alternateColor: 1

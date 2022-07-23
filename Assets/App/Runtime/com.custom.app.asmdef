@@ -1,0 +1,25 @@
+{
+    "name": "com.custom.app",
+    "rootNamespace": "",
+    "references": [
+        "App.Core",
+        "App.Core.Attributes",
+        "LeanTouch",
+        "Zenject",
+        "UniRx",
+        "UniTask",
+        "UniTask.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "UniTask.DOTween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

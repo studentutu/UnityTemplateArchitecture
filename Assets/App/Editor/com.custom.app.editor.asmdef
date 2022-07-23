@@ -1,0 +1,27 @@
+{
+    "name": "com.custom.app.editor",
+    "rootNamespace": "",
+    "references": [
+        "App.Core",
+        "App.Core.Attributes",
+        "LeanTouch",
+        "Zenject",
+        "UniRx",
+        "UniTask",
+        "UniTask.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "com.custom.app"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

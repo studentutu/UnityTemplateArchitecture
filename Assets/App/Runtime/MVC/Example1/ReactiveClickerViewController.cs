@@ -1,13 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using App.Runtime.MVC.Example1;
+using App.Runtime.MVC.Feature1;
 using UniRx;
 
 public class ReactiveClickerViewController : IDisposable
 {
 	private readonly ClickerModel _injectedClickerModel;
-	private CompositeDisposable _disposable;
+	private readonly CompositeDisposable _disposable;
 	private int numberOfTimesClicked = 0;
 
 	public ReactiveClickerViewController(ClickerModel injectedClickerModel)
@@ -16,7 +16,7 @@ public class ReactiveClickerViewController : IDisposable
 		_disposable = new CompositeDisposable();
 	}
 
-	public void Run()
+	public CompositeDisposable Run()
 	{
 		OnMainTextNeedChange();
 		_injectedClickerModel.OnMainCLick
@@ -27,6 +27,7 @@ public class ReactiveClickerViewController : IDisposable
 				OnMainTextNeedChange();
 			})
 			.AddTo(_disposable);
+		return _disposable;
 	}
 
 	private void OnMainTextNeedChange()

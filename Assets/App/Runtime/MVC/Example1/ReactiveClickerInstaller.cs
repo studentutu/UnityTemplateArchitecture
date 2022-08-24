@@ -1,6 +1,6 @@
 ﻿using Zenject;
 
-namespace App.Runtime.MVC.Example1
+namespace App.Runtime.MVC.Feature1
 {
 	public class ReactiveClickerInstaller : Installer<ReactiveClickerInstaller>
 	{
@@ -9,7 +9,7 @@ namespace App.Runtime.MVC.Example1
 			// Models can be used throughout lifetime of application - non lazy is good indication of it.
 			Container.BindInterfacesAndSelfTo<ClickerModel>().AsSingle().NonLazy();
 			Container.BindIFactory<ReactiveClickerViewController>().AsSingle();
-			Container.BindInterfacesAndSelfTo<ReactiveCLickerRunner>().AsSingle();
+			Container.BindInterfacesAndSelfTo<ReactiveClickerRunner>().AsSingle();
 		}
 	}
 }

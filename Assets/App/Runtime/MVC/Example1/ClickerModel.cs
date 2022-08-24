@@ -1,7 +1,7 @@
 ﻿using System;
 using UniRx;
 
-namespace App.Runtime.MVC.Example1
+namespace App.Runtime.MVC.Feature1
 {
 	public class ClickerModel
 	{

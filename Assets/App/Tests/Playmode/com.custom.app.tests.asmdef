@@ -17,7 +17,8 @@
         "Zenject",
         "Zenject-TestFramework",
         "com.custom.test.extensions",
-        "BoundfoxStudios.FluentAssertions"
+        "BoundfoxStudios.FluentAssertions",
+        "app.mvc.feature1"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

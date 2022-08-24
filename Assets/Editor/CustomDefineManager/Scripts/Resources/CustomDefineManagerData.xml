@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDirective xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Directive>
+    <name>TextMeshPro</name>
+    <targets>Standalone iOS Android WebGL</targets>
+    <enabled>true</enabled>
+    <sortOrder>0</sortOrder>
+  </Directive>
+  <Directive>
+    <name>ALLOW_ANONYMOUS_CONTROLLER_EVENTS</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>1</sortOrder>
+  </Directive>
+  <Directive>
+    <name>dUI_MANAGER</name>
+    <targets>Standalone iOS Android WebGL</targets>
+    <enabled>true</enabled>
+    <sortOrder>2</sortOrder>
+  </Directive>
+  <Directive>
+    <name>dUI_TextMeshPro</name>
+    <targets>Standalone iOS Android WebGL</targets>
+    <enabled>true</enabled>
+    <sortOrder>3</sortOrder>
+  </Directive>
+  <Directive>
+    <name>ODIN_INSPECTOR</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>4</sortOrder>
+  </Directive>
+  <Directive>
+    <name>ODIN_INSPECTOR_3</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>5</sortOrder>
+  </Directive>
+  <Directive>
+    <name>ODIN_VALIDATOR</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>6</sortOrder>
+  </Directive>
+  <Directive>
+    <name>UNITASK_DOTWEEN_SUPPORT</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>7</sortOrder>
+  </Directive>
+  <Directive>
+    <name>DEVELOPMENT_BUILD</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>8</sortOrder>
+  </Directive>
+  <Directive>
+    <name>HTTP_PLUGIN_POST_PROCESS_BUILD</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>9</sortOrder>
+  </Directive>
+  <Directive>
+    <name>DISABLE_REORDERABLE_LIST</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>10</sortOrder>
+  </Directive>
+  <Directive>
+    <name>QA_OUTPUT</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>11</sortOrder>
+  </Directive>
+  <Directive>
+    <name>LOG_LEVEL_TRACE</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>12</sortOrder>
+  </Directive>
+  <Directive>
+    <name>DEEP_LOGGING</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>13</sortOrder>
+  </Directive>
+  <Directive>
+    <name>PREPROD_OUTPUT </name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>14</sortOrder>
+  </Directive>
+  <Directive>
+    <name>DEBUG_SIMULATORS_ECS_PERFOMANCE </name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>15</sortOrder>
+  </Directive>
+  <Directive>
+    <name>FEATURE_APPTIM</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>true</enabled>
+    <sortOrder>16</sortOrder>
+  </Directive>
+  <Directive>
+    <name>END_TO_END_TESTS</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>17</sortOrder>
+  </Directive>
+  <Directive>
+    <name>SIMULATOR_TEST_LOG</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>18</sortOrder>
+  </Directive>
+  <Directive>
+    <name>FARM_ENDPOINTS_MOCK</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>19</sortOrder>
+  </Directive>
+  <Directive>
+    <name>DECO_STORE_ENDPOINTS_MOCK</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>20</sortOrder>
+  </Directive>
+  <Directive>
+    <name>FARM_V2_ENDPOINTS_MOCK</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>22</sortOrder>
+  </Directive>
+  <Directive>
+    <name>SUPER_LUCKY_WHEEL_ENDPOINTS_MOCK</name>
+    <targets>Standalone iOS Android</targets>
+    <enabled>false</enabled>
+    <sortOrder>23</sortOrder>
+  </Directive>
+</ArrayOfDirective>

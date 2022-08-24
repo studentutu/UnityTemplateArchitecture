@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using App.Runtime.MVC.Example1;
+using App.Runtime.MVC.Feature1;
 using FluentAssertions;
 using NUnit.Framework;
 using UnityEngine;
@@ -31,7 +31,7 @@ public class EditmodeTests : ZenjectUnitTestFixture
 	{
 		ReactiveClickerInstaller.Install(Container);
 
-		var resolveFromContainer = Container.Resolve<ReactiveCLickerRunner>();
+		var resolveFromContainer = Container.Resolve<ReactiveClickerRunner>();
 		resolveFromContainer.Should().NotBeNull();
 		10.Should().BeGreaterOrEqualTo(10);
 		Assert.Pass();
@@ -41,7 +41,7 @@ public class EditmodeTests : ZenjectUnitTestFixture
 	public void TestMVC()
 	{
 		ReactiveClickerInstaller.Install(Container);
-		var resolveRunner = Container.Resolve<ReactiveCLickerRunner>();
+		var resolveRunner = Container.Resolve<ReactiveClickerRunner>();
 		resolveRunner.Should().NotBeNull();
 		var model = Container.Resolve<ClickerModel>();
 		resolveRunner.RunController();

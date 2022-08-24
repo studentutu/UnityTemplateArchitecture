@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using App.Runtime.MVC.Example1;
+using App.Runtime.MVC.Feature1;
 using FluentAssertions;
 using NUnit.Framework;
 using UnityEngine;
@@ -30,7 +30,7 @@ public class PLaymodeTests : ZenjectUnitTestFixture
 	[Test]
 	public void TestUtilsSimplePasses()
 	{
-		var resolveFromContainer = Container.Resolve<ReactiveCLickerRunner>();
+		var resolveFromContainer = Container.Resolve<ReactiveClickerRunner>();
 		resolveFromContainer.Should().NotBeNull();
 		Assert.Pass();
 		10.Should().BeGreaterOrEqualTo(10);

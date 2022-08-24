@@ -1,0 +1,9 @@
+{
+    "base_url_backend":"",
+    "base_url_auth":"",
+    "audience": "",
+    "client_secret" : "",
+    "client_id" : "",
+    "dbConnection" : "User-Connection",
+    "grant_type": "http://auth0.com/oauth/grant-type/password-realm"
+}

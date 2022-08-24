@@ -5,7 +5,7 @@
 
 <br />
 
-# UnityTemplateAtchitecture
+# Unity Template Architecture
 Base Template for Unity Projects, includes :
 
 - Zenject 

@@ -4,7 +4,7 @@
 [Tt]emp/
 [Oo]bj/
 [Bb]in/
-/[Bb]uild/
+[Bb]uild/
 [Bb]uilds/
 ProfilerReports/
 #[Pp]ackages/
@@ -14,10 +14,10 @@ testCategoriesToRun.txt
 # Visual Studio cache directory
 .vs/
 
-/*.csproj
+*.csproj
 
 *.unityproj
-/*.sln
+*.sln
 *.suo
 *.tmp
 *.user
@@ -41,6 +41,24 @@ fastlane/
 Gemfile
 Gemfile.lock
 
+
+# Visual Studio
+*.DotSettings
+*.DotSettings.meta
+*.mdb
+*.mdb.meta
+*.suo
+*.suo.meta
+*.user
+*.user.meta
+bin
+bin.meta
+obj
+obj.meta
+
+# VsCode
+.vscode
+
 **/.DS_Store
 Assets/Save/
 Assets/Save.meta
@@ -54,5 +72,4 @@ MemoryCaptures/
 /UserSettings/
 /CodeCoverage/
 /Logs/
-
-Assets/Editor/SpineSettings.asset*
+0_unity_project/Logs/

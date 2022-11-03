@@ -17,7 +17,7 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: d8619098f5b01514bb32051910da6341
   m_SerializeEntries:
-  - m_GUID: 9267954eab497764b89385cd2086858e
+  - m_GUID: a7c5e7ab4c54024408e2401094037663
     m_Address: ClickerView
     m_ReadOnly: 0
     m_SerializedLabels: []

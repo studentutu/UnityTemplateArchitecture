@@ -31,7 +31,10 @@ namespace App.Runtime.MVC.Feature1
 
 		public void RunController()
 		{
-			_factory.Create().Run().Add(_disposable);
+			_factory
+				.Create()
+				.Run()
+				.Add(_disposable);
 		}
 	}
 }

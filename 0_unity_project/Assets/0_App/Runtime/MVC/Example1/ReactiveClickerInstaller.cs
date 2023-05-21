@@ -8,8 +8,8 @@ namespace App.Runtime.MVC.Feature1
 		{
 			// Models can be used throughout lifetime of application - non lazy is good indication of it.
 			Container.BindInterfacesAndSelfTo<ClickerModel>().AsSingle().NonLazy();
-			Container.BindIFactory<ReactiveClickerViewController>().AsSingle();
-			Container.BindInterfacesAndSelfTo<ReactiveClickerRunner>().AsSingle();
+			Container.BindIFactory<ReactiveClickerViewController>();
+			Container.BindInterfacesAndSelfTo<ReactiveClickerRunner>();
 		}
 	}
 }
